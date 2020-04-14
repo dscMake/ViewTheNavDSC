@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FCDEDE92446517600890DFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDEDE82446517600890DFF /* AppDelegate.swift */; };
+		3FCDEDEB2446517600890DFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDEDEA2446517600890DFF /* ViewController.swift */; };
+		3FCDEDEE2446517600890DFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCDEDEC2446517600890DFF /* Main.storyboard */; };
+		3FCDEDF02446517700890DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCDEDEF2446517700890DFF /* Assets.xcassets */; };
+		3FCDEDF32446517700890DFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCDEDF12446517700890DFF /* LaunchScreen.storyboard */; };
+		3FCDEDFE2446517700890DFF /* DSCNavViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDEDFD2446517700890DFF /* DSCNavViewTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FCDEDFA2446517700890DFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FCDEDDD2446517600890DFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FCDEDE42446517600890DFF;
+			remoteInfo = DSCNavView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FCDEDE52446517600890DFF /* DSCNavView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSCNavView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCDEDE82446517600890DFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FCDEDEA2446517600890DFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FCDEDED2446517600890DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FCDEDEF2446517700890DFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FCDEDF22446517700890DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FCDEDF42446517700890DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FCDEDF92446517700890DFF /* DSCNavViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSCNavViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCDEDFD2446517700890DFF /* DSCNavViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSCNavViewTests.swift; sourceTree = "<group>"; };
+		3FCDEDFF2446517700890DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FCDEDE22446517600890DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCDEDF62446517700890DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FCDEDDC2446517600890DFF = {
+			isa = PBXGroup;
+			children = (
+				3FCDEDE72446517600890DFF /* DSCNavView */,
+				3FCDEDFC2446517700890DFF /* DSCNavViewTests */,
+				3FCDEDE62446517600890DFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FCDEDE62446517600890DFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FCDEDE52446517600890DFF /* DSCNavView.app */,
+				3FCDEDF92446517700890DFF /* DSCNavViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FCDEDE72446517600890DFF /* DSCNavView */ = {
+			isa = PBXGroup;
+			children = (
+				3FCDEDE82446517600890DFF /* AppDelegate.swift */,
+				3FCDEDEA2446517600890DFF /* ViewController.swift */,
+				3FCDEDEC2446517600890DFF /* Main.storyboard */,
+				3FCDEDEF2446517700890DFF /* Assets.xcassets */,
+				3FCDEDF12446517700890DFF /* LaunchScreen.storyboard */,
+				3FCDEDF42446517700890DFF /* Info.plist */,
+			);
+			path = DSCNavView;
+			sourceTree = "<group>";
+		};
+		3FCDEDFC2446517700890DFF /* DSCNavViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FCDEDFD2446517700890DFF /* DSCNavViewTests.swift */,
+				3FCDEDFF2446517700890DFF /* Info.plist */,
+			);
+			path = DSCNavViewTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FCDEDE42446517600890DFF /* DSCNavView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCDEE022446517700890DFF /* Build configuration list for PBXNativeTarget "DSCNavView" */;
+			buildPhases = (
+				3FCDEDE12446517600890DFF /* Sources */,
+				3FCDEDE22446517600890DFF /* Frameworks */,
+				3FCDEDE32446517600890DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSCNavView;
+			productName = DSCNavView;
+			productReference = 3FCDEDE52446517600890DFF /* DSCNavView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FCDEDF82446517700890DFF /* DSCNavViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCDEE052446517700890DFF /* Build configuration list for PBXNativeTarget "DSCNavViewTests" */;
+			buildPhases = (
+				3FCDEDF52446517700890DFF /* Sources */,
+				3FCDEDF62446517700890DFF /* Frameworks */,
+				3FCDEDF72446517700890DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FCDEDFB2446517700890DFF /* PBXTargetDependency */,
+			);
+			name = DSCNavViewTests;
+			productName = DSCNavViewTests;
+			productReference = 3FCDEDF92446517700890DFF /* DSCNavViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FCDEDDD2446517600890DFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3FCDEDE42446517600890DFF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3FCDEDF82446517700890DFF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3FCDEDE42446517600890DFF;
+					};
+				};
+			};
+			buildConfigurationList = 3FCDEDE02446517600890DFF /* Build configuration list for PBXProject "DSCNavView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FCDEDDC2446517600890DFF;
+			productRefGroup = 3FCDEDE62446517600890DFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FCDEDE42446517600890DFF /* DSCNavView */,
+				3FCDEDF82446517700890DFF /* DSCNavViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FCDEDE32446517600890DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCDEDF32446517700890DFF /* LaunchScreen.storyboard in Resources */,
+				3FCDEDF02446517700890DFF /* Assets.xcassets in Resources */,
+				3FCDEDEE2446517600890DFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCDEDF72446517700890DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FCDEDE12446517600890DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCDEDEB2446517600890DFF /* ViewController.swift in Sources */,
+				3FCDEDE92446517600890DFF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCDEDF52446517700890DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCDEDFE2446517700890DFF /* DSCNavViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FCDEDFB2446517700890DFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FCDEDE42446517600890DFF /* DSCNavView */;
+			targetProxy = 3FCDEDFA2446517700890DFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FCDEDEC2446517600890DFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FCDEDED2446517600890DFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FCDEDF12446517700890DFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FCDEDF22446517700890DFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FCDEE002446517700890DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FCDEE012446517700890DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FCDEE032446517700890DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DSCNavView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DSCNavView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FCDEE042446517700890DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DSCNavView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DSCNavView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FCDEE062446517700890DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DSCNavViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DSCNavViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSCNavView.app/DSCNavView";
+			};
+			name = Debug;
+		};
+		3FCDEE072446517700890DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DSCNavViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DSCNavViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSCNavView.app/DSCNavView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FCDEDE02446517600890DFF /* Build configuration list for PBXProject "DSCNavView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCDEE002446517700890DFF /* Debug */,
+				3FCDEE012446517700890DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCDEE022446517700890DFF /* Build configuration list for PBXNativeTarget "DSCNavView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCDEE032446517700890DFF /* Debug */,
+				3FCDEE042446517700890DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCDEE052446517700890DFF /* Build configuration list for PBXNativeTarget "DSCNavViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCDEE062446517700890DFF /* Debug */,
+				3FCDEE072446517700890DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FCDEDDD2446517600890DFF /* Project object */;
+}
